@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
 	title: 'Sharvani Mathur - Frontend Engineer',
 	description:
-		'Welcome to my portfolio! I am a passionate software developer with a focus on clean, minimal, and effective solutions. I believe in the power of simplicity and thoughtful design to create impactful digital experiences.',
+		'Welcome to my portfolio! I am a passionate frontend engineer with a focus on clean, minimal, and effective solutions. I believe in the power of simplicity and thoughtful design to create impactful digital experiences.',
 	keywords: [
 		'Software Developer',
 		'Clean Code',
@@ -39,13 +39,13 @@ export const metadata: Metadata = {
 	authors: [{ name: 'Sharvani Mathur' }],
 	creator: 'Sharvani Mathur',
 	openGraph: {
-		title: 'Sharvani Mathur - Software Developer Portfolio',
-		description: 'Passionate software developer creating clean, minimal, and effective digital solutions. Explore my work and development philosophy.',
-		url: 'https://sharvanimathur.github.io',
+		title: 'Sharvani Mathur - Frontend Engineer',
+		description: 'Passionate frontend engineer creating clean, minimal, and effective digital solutions. Explore my work and development philosophy.',
+		url: 'https://sharvanimathur-github-io.vercel.app/',
 		siteName: 'Sharvani Mathur - Portfolio',
 		images: [
 			{
-				url: '/og-image.jpg',
+				url: '/sharvani.jpg',
 				width: 1200,
 				height: 630,
 				alt: 'Sharvani Mathur - Modern Minimal Portfolio',

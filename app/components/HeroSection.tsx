@@ -32,8 +32,15 @@ export default function HeroSection() {
 				>
 					Frontend Developer & UI/UX Enthusiast
 				</motion.p>
-			</div>
 
+				{/* <div className="mx-auto mb-8 w-36 h-36 rounded-full bg-white border-4 border-white shadow-lg flex items-center justify-center">
+					<img
+						src="/sharvani.jpg" // Replace with your image path
+						alt="Sharvani Mathur"
+						className="w-32 h-32 rounded-full object-contain"
+					/>
+				</div> */}
+			</div>
 			<motion.div
 				initial={{ y: 50, opacity: 0 }}
 				animate={{ y: 0, opacity: 1 }}
