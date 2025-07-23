@@ -15,9 +15,11 @@ const projects = [
 	},
 	{
 		id: 2,
-		title: 'AI Chat Application',
-		description: 'Real-time chat application powered by OpenAI',
+		title: 'Meeting Scheduler',
+		description: 'Schedule your availability and book meetings seamlessly',
 		image: '/laptop.jpg',
+		githubUrl: "https://github.com/sharvanimathur/schedyuler",
+        vercelUrl: "https://schedyuler.vercel.app/"
 	},
 	{
 		id: 3,
