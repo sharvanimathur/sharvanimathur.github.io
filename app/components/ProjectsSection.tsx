@@ -21,18 +21,18 @@ const projects = [
 		githubUrl: "https://github.com/sharvanimathur/schedyuler",
         vercelUrl: "https://schedyuler.vercel.app/"
 	},
-	{
-		id: 3,
-		title: 'Task Management',
-		description: 'Collaborative task management tool with real-time updates',
-		image: '/code.jpg',
-	},
-	{
-		id: 4,
-		title: 'Portfolio Generator',
-		description: 'Dynamic portfolio generator for developers',
-		image: '/laptop.jpg',
-	},
+	// {
+	// 	id: 3,
+	// 	title: 'Task Management',
+	// 	description: 'Collaborative task management tool with real-time updates',
+	// 	image: '/code.jpg',
+	// },
+	// {
+	// 	id: 4,
+	// 	title: 'Portfolio Generator',
+	// 	description: 'Dynamic portfolio generator for developers',
+	// 	image: '/laptop.jpg',
+	// },
 ];
 
 export default function ProjectsSection() {

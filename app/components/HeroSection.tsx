@@ -1,5 +1,4 @@
 'use client';
-
 import { motion } from 'framer-motion';
 
 export default function HeroSection() {
@@ -30,16 +29,24 @@ export default function HeroSection() {
 					transition={{ duration: 0.8, delay: 0.4 }}
 					className="text-lg md:text-xl text-gray-300 mb-8 px-4"
 				>
-					Frontend Developer & UI/UX Enthusiast
+					Designing Frontends that Scale, Perform, and Delight
+				</motion.p>
+                <motion.p
+					initial={{ y: 50, opacity: 0 }}
+					animate={{ y: 0, opacity: 1 }}
+					transition={{ duration: 0.8, delay: 0.4 }}
+					className="text-md md:text-md text-gray-300 mt-20 mb-8 px-4 w-1/2 mx-auto"
+				>
+					I'm a frontend engineer with 8+ years of experience turning complex problems into fast, elegant interfaces. From leading React + TypeScript builds to crafting scalable microfrontends and reusable component libraries, I blend performance engineering with design precision. Whether mentoring teams or optimizing for speed, I build frontends that not only work—but wow.
 				</motion.p>
 
-				{/* <div className="mx-auto mb-8 w-36 h-36 rounded-full bg-white border-4 border-white shadow-lg flex items-center justify-center">
+				<div className="mx-auto mb-8 w-64 h-64 rounded-full border-4 border-transparent shadow-lg flex items-center justify-center">
 					<img
 						src="/sharvani.jpg" // Replace with your image path
 						alt="Sharvani Mathur"
-						className="w-32 h-32 rounded-full object-contain"
+						className="w-64 h-64 rounded-full object-cover shadow-lg"
 					/>
-				</div> */}
+				</div>
 			</div>
 			<motion.div
 				initial={{ y: 50, opacity: 0 }}
