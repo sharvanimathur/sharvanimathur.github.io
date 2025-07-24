@@ -37,7 +37,7 @@ export default function HeroSection() {
 					transition={{ duration: 0.8, delay: 0.4 }}
 					className="text-md md:text-md text-gray-300 mt-20 mb-8 px-4 w-1/2 mx-auto"
 				>
-					I'm a frontend engineer with 8+ years of experience turning complex problems into fast, elegant interfaces. From leading React + TypeScript builds to crafting scalable microfrontends and reusable component libraries, I blend performance engineering with design precision. Whether mentoring teams or optimizing for speed, I build frontends that not only work—but wow.
+					I&apos;m a frontend engineer with 8+ years of experience turning complex problems into fast, elegant interfaces. From leading React + TypeScript builds to crafting scalable microfrontends and reusable component libraries, I blend performance engineering with design precision. Whether mentoring teams or optimizing for speed, I build frontends that not only work—but wow.
 				</motion.p>
 
 				<div className="mx-auto mb-8 w-64 h-64 rounded-full border-4 border-transparent shadow-lg flex items-center justify-center">
